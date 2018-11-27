@@ -1,0 +1,183 @@
+,,
+"A collaboration between the Robert Wood Johnson Foundation and the University of Wisconsin Population Health Institute",,
+,,
+"This Excel file contains the ranks and scores for each county in your state and the underlying data details for the measures used in calculating the 2018 County Health Rankings. In addition, the file contains additional measures that are reported on the County Health Rankings web site for your state.",,
+,,
+"For additional information about how the County Health Rankings are calculated, please visit www.countyhealthrankings.org",,
+,,
+Contents:,,
+"Outcomes & Factors Rankings",,
+"Outcomes & Factors Sub Rankings",,
+"Ranked Measures Data (including measure values, confidence intervals* and z-scores**)",,
+"Additional Measures Data (including measure values and confidence intervals*)",,
+"Ranked Measure Sources and Years",,
+"Additional Measure Sources and Years",,
+,,
+"*   95% confidence intervals are provided where applicable and available.",,
+"**  Z-scores are ""adjusted"" z-scores (e.g., multiplied by -1 if a positively framed measure, set to zero for missing and unreliable values for ranked counties, and truncated at -3 or +3 if county population is less than 20,000).",,
+,,
+Measure,"Data Elements",Description
+"Geographic identifiers",FIPS,"Federal Information Processing Standard"
+,State,
+,County,
+"Premature death","Years of Potential Life Lost Rate","Age-adjusted YPLL rate per 100,000"
+,"95% CI - Low","95% confidence interval reported by National Center for Health Statistics"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"Years of Potential Life Lost Rate (Black)","Age-adjusted YPLL rate per 100,000 for non-Hispanic Blacks"
+,"Years of Potential Life Lost Rate (Hispanic)","Age-adjusted YPLL rate per 100,000 for Hispanics"
+,"Years of Potential Life Lost Rate (White)","Age-adjusted YPLL rate per 100,000 for non-Hispanic Whites"
+"Poor or fair health","% Fair/Poor","Percentage of adults that report fair or poor health"
+,"95% CI - Low","95% confidence interval reported by BRFSS"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Poor physical health days","Physically Unhealthy Days","Average number of reported physically unhealthy days per month"
+,"95% CI - Low","95% confidence interval reported by BRFSS"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Poor mental health days","Mentally Unhealthy Days","Average number of reported mentally unhealthy days per month"
+,"95% CI - Low","95% confidence interval reported by BRFSS"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Low birthweight",Unreliable,"Value reported but considered unreliable since based on counts of twenty or less."
+,"% LBW","Percentage of births with low birth weight (<2500g)"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"% LBW (Black)","Percentage of births with low birth weight (<2500g) for non-Hispanic Blacks"
+,"% LBW (Hispanic)","Percentage of births with low birth weight (<2500g) for Hispanics"
+,"% LBW (White)","Percentage of births with low birth weight (<2500g) for non-Hispanic Whites"
+"Adult smoking","% Smokers","Percentage of adults that reported currently smoking"
+,"95% CI - Low","95% confidence interval reported by BRFSS"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Adult obesity","% Obese","Percentage of adults that report BMI >= 30"
+,"95% CI - Low","95% confidence interval reported by BRFSS"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Food environment index","Food Environment Index","Indicator of access to healthy foods - 0 is worst, 10 is best"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Physical inactivity","% Physically Inactive","Percentage of adults that report no leisure-time physical activity"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Access to exercise opportunities","% With Access","Percentage of the population with access to places for physical activity"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Excessive drinking","% Excessive Drinking","Percentage of adults that report excessive drinking"
+,"95% CI - Low","95% confidence interval reported by BRFSS"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Alcohol-impaired driving deaths","# Alcohol-Impaired Driving Deaths","Number of alcohol-impaired motor vehicle deaths"
+,"# Driving Deaths","Number of motor vehicle deaths"
+,"% Alcohol-Impaired","Percentage of driving deaths with alcohol involvement"
+,"95% CI - Low","95% confidence interval using Poisson distribution"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Sexually transmitted infections","# Chlamydia Cases","Number of chlamydia cases"
+,"Chlamydia Rate","Chlamydia cases per 100,000 population"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Teen births","Teen Birth Rate","Births per 1,000 females ages 15-19"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"Teen Birth Rate (Black)","Births per 1,000 females ages 15-19 for Black non-Hispanic mothers"
+,"Teen Birth Rate (Hispanic)","Births per 1,000 females ages 15-19 for Hispanic mothers"
+,"Teen Birth Rate (White)","Births per 1,000 females ages 15-19 for White non-Hispanic mothers"
+Uninsured,"# Uninsured","Number of people under age 65 without insurance"
+,"% Uninsured","Percentage of people under age 65 without insurance"
+,"95% CI - Low","95% confidence interval reported by SAHIE"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Primary care physicians","# Primary Care Physicians","Number of primary care physicians (PCP) in patient care"
+,"PCP Rate","Primary Care Physicians per 100,000 population"
+,"PCP Ratio","Population to Primary Care Physicians ratio"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+Dentists,"# Dentists","Number of dentists"
+,"Dentist Rate","Dentists per 100,000 population"
+,"Dentist Ratio","Population to Dentists ratio"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Mental health providers","# Mental Health Providers","Number of mental health providers (MHP)"
+,"MHP Rate","Mental Health Providers per 100,000 population"
+,"MHP Ratio","Population to Mental Health Providers ratio"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Preventable hospital stays","# Medicare Enrollees","Number of Medicare enrollees"
+,"Preventable Hosp. Rate","Discharges for Ambulatory Care Sensitive Conditions per 1,000 Medicare Enrollees"
+,"95% CI - Low","95% confidence interval reported by Dartmouth Institute"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Diabetes monitoring","# Diabetics","Number of diabetic Medicare enrollees"
+,"% Receiving HbA1c","Percentage of diabetic Medicare enrollees receiving HbA1c test"
+,"95% CI - Low","95% confidence interval reported by Dartmouth Institute"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"% Receiving HbA1c (Black)","Percentage of Black diabetic Medicare enrollees receiving HbA1c test"
+,"% Receiving HbA1c (White)","Percentage of White diabetic Medicare enrollees receiving HbA1c test"
+"Mammography screening","# Medicare Enrollees","Number of female Medicare enrollees age 67-69"
+,"% Mammography","Percentage of female Medicare enrollees having at least 1 mammogram in 2 yrs (age 67-69)"
+,"95% CI - Low","95% confidence interval reported by Dartmouth Institute"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"% Mammography (Black)","Percentage of Black female Medicare enrollees having at least 1 mammogram in 2 yrs (age 67-69)"
+,"% Mammography (White)","Percentage of White female Medicare enrollees having at least 1 mammogram in 2 yrs (age 67-69)"
+"High school graduation","Cohort Size","Number of students expected to graduate"
+,"Graduation Rate","Graduation rate"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Some college","# Some College","Adults age 25-44 with some post-secondary education"
+,Population,"Adults age 25-44"
+,"% Some College","Percentage of adults age 25-44 with some post-secondary education"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+Unemployment,"# Unemployed","Number of people ages 16+ unemployed and looking for work"
+,"Labor Force","Size of the labor force"
+,"% Unemployed","Percentage of population ages 16+ unemployed and looking for work"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Children in poverty","% Children in Poverty","Percentage of children (under age 18) living in poverty"
+,"95% CI - Low","95% confidence interval reported by SAIPE"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"% Children in Poverty (Black)","Percentage of non-Hispanic Black children (under age 18) living in poverty - from the 2012-2016 ACS"
+,"% Children in Poverty (Hispanic)","Percentage of Hispanic children (under age 18) living in poverty - from the 2012-2016 ACS"
+,"% Children in Poverty (White)","Percentage of non-Hispanic White children (under age 18) living in poverty - from the 2012-2016 ACS"
+"Income inequality","80th Percentile Income","80th percentile of median household income"
+,"20th Percentile Income","20th percentile of median household income"
+,"Income Ratio","Ratio of household income at the 80th percentile to income at the 20th percentile"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Children in single-parent households","# Single-Parent Households","Number of children that live in single-parent households"
+,"# Households","Number of children in households"
+,"% Single-Parent Households","Percentage of children that live in single-parent households"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Social associations","# Associations","Number of associations"
+,"Association Rate","Associations per 10,000 population"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Violent crime","# Violent Crimes","Number of violent crimes"
+,"Violent Crime Rate","Violent crimes per 100,000 population"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Injury deaths","# Injury Deaths","Number of injury deaths"
+,"Injury Death Rate","Injury mortality rate per 100,000."
+,"95% CI - Low","95% confidence interval as reported by the National Center for Health Statistics"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Air pollution - particulate matter","Average Daily PM2.5","Average daily amount of fine particulate matter in micrograms per cubic meter"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Drinking water violations","Presence of violation","County affected by a water violation: 1-Yes, 0-No"
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Severe housing problems","# Households with Severe Problems","Number of households with at least 1 of 4 housing problems: overcrowding, high housing costs, or lack of kitchen or plumbing facilities"
+,"% Severe Housing Problems","Percentage of households with at least 1 of 4 housing problems: overcrowding, high housing costs, or lack of kitchen or plumbing facilities"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+"Driving alone to work","% Drive Alone","Percentage of workers who drive alone to work"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
+,"% Drive Alone (Black)","Percentage of non-Hispanic Black workers who drive alone to work"
+,"% Drive Alone (Hispanic)","Percentage of Hispanic workers who drive alone to work"
+,"% Drive Alone (White)","Percentage of non-Hispanic White workers who drive alone to work"
+"Long commute - driving alone","# Workers who Drive Alone","Number of workers who commute in their car, truck or van alone"
+,"% Long Commute - Drives Alone","Among workers who commute in their car alone, the percentage that commute more than 30 minutes"
+,"95% CI - Low","95% confidence interval"
+,"95% CI - High",
+,Z-Score,"(Measure - Average of state counties)/(Standard Deviation)"
